@@ -9,8 +9,7 @@
     text-align: center; /* Center-align text horizontally */
     display: flex;
     justify-content: center; /* Center-align text vertically */
-    align-items: center;
-}
+    align-items: center;}
 
 .card-content {
     /* Additional styles for the content inside the card */
@@ -25,3 +24,12 @@
     font-size: 1em;
     color: #333;
 }
+
+.corner-image {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    width: 40px; /* Adjust width of the corner image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: rounded corners for the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow for visual effect */}
