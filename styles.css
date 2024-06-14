@@ -5,6 +5,11 @@
     padding: 20px;
     width: 300px; /* Adjust width as needed */
     margin: 20px auto; /* Centers the card horizontally */
+    border: 1px solid #ddd; /* Add a solid border */
+    text-align: center; /* Center-align text horizontally */
+    display: flex;
+    justify-content: center; /* Center-align text vertically */
+    align-items: center;
 }
 
 .card-content {
